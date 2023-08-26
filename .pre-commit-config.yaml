@@ -27,3 +27,9 @@ repos:
     hooks:
       - id: check-merge-conflict
       - id: end-of-file-fixer
+
+
+  - repo: https://github.com/qoomon/git-conventional-commits
+    rev: v2.6.5
+    hooks:
+      - id: conventional-commits

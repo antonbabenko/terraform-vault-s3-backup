@@ -44,7 +44,7 @@ terraform apply --target vault_kv_secret.example
 terraform plan 
 terraform apply 
 ```
-#### Example outputs:
+#### Example outputs
 
 ```
 s3_bucket_name = "mature-gelding.s3.amazonaws.com
