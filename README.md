@@ -8,9 +8,8 @@ Terraform module, which creates an S3 backup of the kv store store secrets for H
 
 A Terraform module designed to store Hashicorp Vault's key-value (kv) secrets in an AWS S3 bucket, compressed in ZIP format.
 
-This module leverages AWS [KMS](https://github.com/terraform-aws-modules/terraform-aws-kms) and [S3](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket) services and reuses existing infrastructure components.
+This module leverages AWS [KMS](https://github.com/terraform-aws-modules/terraform-aws-kms) and [S3](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket) aws terraform modules for creating kms and s3 aws infrastructure components.
 
-terraform-aws-s3-bucket
 
 ```hcl
 module "vault_kv_backup" {
